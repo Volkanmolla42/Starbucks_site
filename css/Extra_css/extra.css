@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: #f5f6fa;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0.3px !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.002rem !important;
+}
+
+nav {
+    z-index: 1000 !important;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .24), 0 2px 2px 0 rgba(0, 0, 0, .12);
+}
+
+button {
+    font-family: 'Roboto' sans-serif !important;
+    letter-spacing: 0.9px;
+    transform: scale(.9) !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+
+button:active {
+    transform: scale(0.8) !important;
+}
+
+.navlogo {
+    width: 50px;
+}
+
+.navbar-nav li a {
+    font-size: 13px;
+    color: black !important;
+    letter-spacing: 1px
+}
+
+.navbar-nav li a:hover {
+    color: rgb(49, 49, 49) !important;
+}
+
+.icon-konum {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    right: 8px;
+}
+
+.navbar-nav {
+    font-size: 13px;
+}
+
+.left-banner {
+    top: 15px;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    width: 40.5%;
+    overflow: hidden;
+    z-index: -1;
+    background-color: #daeee1;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+section p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #6c6c6c;
+    letter-spacing: 0.3px;
+}
+
+.accordion-button {
+    padding: 40px 0;
+    background-color: white !important;
+    color: rgb(36, 36, 36) !important;
+}
+
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-item {
+    border: none;
+    border-color: green;
+}
+
+.accordion-body a {
+    color: rgb(97, 97, 97) !important;
+    font-weight: 500;
+    font-size: 14px !important;
+}
+
+.footer-icons span i {
+    font-size: 18px;
+}
+
+.footer-icons span {
+    color: white;
+    background: #000;
+    border-radius: 100%;
+    padding: 1.3px 7px;
+    cursor: pointer;
+}
+
+.footer-icons {
+    margin-left: 13px;
+    gap: 13px;
+}
+
+.footer-links {
+    gap: 28px;
+}
+
+.footer-links a {
+    width: max-content;
+    font-weight: 600;
+    color: #1f1f1f;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-links button {
+    width: max-content;
+}
+
+.footer-links a:hover {
+    text-decoration: underline black;
+}
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 992) {}
+
+@media screen and (max-width: 1200px) {
+    .left-banner {
+        top: 30px;
+    }
+}
